@@ -1,0 +1,97 @@
+/* Write CSS here */
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  min-height: 100vh;
+  margin: 50px;
+  width: 100%;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+    padding-left: 40px;
+  }
+}
+
+.stop-watch-container {
+  box-sizing: border-box;
+  box-shadow: 10px 10px 10px 10px #333333;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
+
+.timer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.running-time {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.stop-start-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 30px;
+}
+
+.start-btn {
+  background-color: #1db05f;
+  outline: none;
+  color: #ffffff;
+  margin: 30px;
+  padding-left: 15px;
+  border-color: #1db05f;
+  border-radius: 5px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.stop-btn {
+  background-color: #ef0d36;
+  outline: none;
+  color: #ffffff;
+  margin: 30px;
+  padding-left: 15px;
+  border-color: #ef0d36;
+  border-radius: 5px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.restart-btn {
+  background-color: #eaa800;
+  outline: none;
+  color: #ffffff;
+  margin: 30px;
+  padding-left: 15px;
+  border-color: #eaa800;
+  border-radius: 5px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
